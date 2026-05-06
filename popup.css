@@ -1,0 +1,73 @@
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f1115;
+  color: #f3f6ff;
+}
+
+.popup {
+  width: 320px;
+  padding: 14px;
+}
+
+h1 {
+  margin: 0 0 12px;
+  font-size: 1.3rem;
+}
+
+h2 {
+  margin: 0 0 8px;
+  font-size: 1rem;
+}
+
+.card {
+  background: #1a1e27;
+  border: 1px solid #2b3242;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.timer {
+  font-size: 2rem;
+  margin: 6px 0 10px;
+  font-weight: bold;
+}
+
+.buttonRow {
+  display: flex;
+  gap: 8px;
+}
+
+button {
+  border: 0;
+  border-radius: 8px;
+  padding: 8px 12px;
+  background: #4d7cff;
+  color: white;
+  cursor: pointer;
+}
+
+button.ghost {
+  background: #2a3142;
+}
+
+p {
+  margin: 0;
+  line-height: 1.4;
+}

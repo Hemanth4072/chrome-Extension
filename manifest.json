@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Focus Mode",
+  "description": "Block distracting websites, hide noisy feeds, and run a simple focus timer.",
+  "version": "1.0.0",
+  "permissions": ["storage", "tabs", "declarativeNetRequest"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "Focus Mode",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*", "*://*.instagram.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
