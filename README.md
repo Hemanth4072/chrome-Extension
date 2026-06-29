@@ -13,16 +13,7 @@ HTML
 CSS
 JavaScript
 Chrome Extension Manifest V3
-📂 Project Structure
-focus-extension/
-│
-├── manifest.json
-├── popup.html
-├── popup.css
-├── popup.js
-├── background.js
-├── content.js
-└── icons/
+
 📌 How It Works
 Website Blocking
 
